@@ -443,14 +443,15 @@ void CBuild2D_OpenCVDlg::OnBnClickedBtnPic()
 	if(dlg.DoModal() == IDOK)    
 	{    
 		picPath= dlg.GetPathName();  //»ñÈ¡Í¼Æ¬Â·¾¶    
+
+		//CString to string  
+		USES_CONVERSION; 
+		string picpath = W2A(picPath);      
+
+		scr = imread(picpath);        
+
+		OnBnClickedCheckRectify();
 	}    
-	//CString to string  
-	USES_CONVERSION; 
-	string picpath = W2A(picPath);      
-
-	scr = imread(picpath);        
-
-	OnBnClickedCheckRectify();
 }
 
 
