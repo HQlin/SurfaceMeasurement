@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Build2D_OpenCV", "Build2D_OpenCV\Build2D_OpenCV.vcxproj", "{44DE98BB-47FD-490C-92F6-2B3488D054B0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "calibrate", "calibrate\calibrate.vcxproj", "{7F43AF19-1D1A-4AC4-ADF1-BEDE76C8FF72}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44DE98BB-47FD-490C-92F6-2B3488D054B0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{44DE98BB-47FD-490C-92F6-2B3488D054B0}.Debug|Win32.Build.0 = Debug|Win32
+		{44DE98BB-47FD-490C-92F6-2B3488D054B0}.Release|Win32.ActiveCfg = Release|Win32
+		{44DE98BB-47FD-490C-92F6-2B3488D054B0}.Release|Win32.Build.0 = Release|Win32
+		{7F43AF19-1D1A-4AC4-ADF1-BEDE76C8FF72}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7F43AF19-1D1A-4AC4-ADF1-BEDE76C8FF72}.Debug|Win32.Build.0 = Debug|Win32
+		{7F43AF19-1D1A-4AC4-ADF1-BEDE76C8FF72}.Release|Win32.ActiveCfg = Release|Win32
+		{7F43AF19-1D1A-4AC4-ADF1-BEDE76C8FF72}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
